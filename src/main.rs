@@ -3,7 +3,7 @@ use std::time::{Duration, Instant};
 
 fn main() {
     let start_time = Instant::now();
-    let duration = Duration::from_secs(120);
+    let duration = Duration::from_secs(2);
 
     loop {
         let elapsed_time = start_time.elapsed();
